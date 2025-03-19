@@ -21,7 +21,8 @@ jobs:
     steps:
     - uses: actions/checkout@v4
       with:
-        repository: EsmoMU/challenge_develop_a_container_image_pipeline_app_repo@master
+        repository: EsmoMU/ challenge_develop_a_container_image_pipeline_app_repo
+        path: .
     - name: Set up Python 3.10
       uses: actions/setup-python@v3
       with:
